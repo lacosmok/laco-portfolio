@@ -10,5 +10,8 @@
     "portfolio"
   ],
   "author": "Laco Smokowski",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "^1.7.4"
+  }
 }

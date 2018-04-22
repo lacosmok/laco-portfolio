@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainPageComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,49 @@
+@import "../shared/variables";
+
+p, div{
+  color: @black;
+}
+.center{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: @white;
+  .main-component{
+    position: absolute;
+    left: 50%;
+    top:25%;
+    transform: translateX(-50%);
+    width:600px;
+    height: 300px;
+    border: 1px solid black;
+    .name{
+      margin: 10% auto;
+      font-size: @text-big;
+      position: relative;
+      .center;
+    }
+    .secondary{
+      position: relative;
+      .center;
+      font-size: @text-middle;
+
+    }
+  }
+  .about-me{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%
+  }
+  .post{
+    position: absolute;
+    bottom: 10%;
+    .center;
+
+  }
+}
